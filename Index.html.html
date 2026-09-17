@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livret d'Accueil - Lodge Manaë</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #f4f6f4; color: #2d3732; }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-start p-4 sm:p-8">
+
+    <!-- Main Container -->
+    <div class="w-full max-w-4xl bg-white rounded-2xl shadow-xl overflow-hidden border border-emerald-100 my-4">
+        
+        <!-- Header Banner -->
+        <div class="bg-gradient-to-r from-emerald-900 to-teal-800 text-white p-8 sm:p-12 relative">
+            <div class="absolute top-4 right-4 bg-white/10 backdrop-blur-md px-3 py-1 rounded-full text-xs font-medium tracking-wide uppercase">
+                La Réunion • Ravine des Cabris
+            </div>
+            <h1 class="text-3xl sm:text-5xl font-bold tracking-tight mb-3">Lodge Manaë 🌿</h1>
+            <p class="text-emerald-100 text-base sm:text-lg max-w-xl font-light">
+                Bienvenue dans votre cocon biophile et chaleureux. Votre expérience commence ici.
+            </p>
+        </div>
+
+        <!-- QR Codes Section (Livret & Google Review) -->
+        <div class="bg-emerald-50 border-b border-emerald-100 p-6 sm:p-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
+            
+            <!-- QR Code 1: Livret Numérique -->
+            <div class="flex flex-col sm:flex-row items-center gap-4 bg-white p-4 rounded-2xl shadow-sm border border-emerald-200">
+                <div class="w-28 h-28 flex-shrink-0 bg-white p-1 rounded-lg flex items-center justify-center border border-emerald-100">
+                    <svg viewBox="0 0 100 100" class="w-full h-full rounded">
+                        <rect width="100" height="100" fill="#ffffff"/>
+                        <rect x="5" y="5" width="25" height="25" fill="#064e3b"/>
+                        <rect x="9" y="9" width="17" height="17" fill="#ffffff"/>
+                        <rect x="13" y="13" width="9" height="9" fill="#064e3b"/>
+                        <rect x="70" y="5" width="25" height="25" fill="#064e3b"/>
+                        <rect x="74" y="9" width="17" height="17" fill="#ffffff"/>
+                        <rect x="78" y="13" width="9" height="9" fill="#064e3b"/>
+                        <rect x="5" y="70" width="25" height="25" fill="#064e3b"/>
+                        <rect x="9" y="74" width="17" height="17" fill="#ffffff"/>
+                        <rect x="13" y="78" width="9" height="9" fill="#064e3b"/>
+                        <rect x="35" y="8" width="5" height="12" fill="#064e3b"/>
+                        <rect x="45" y="5" width="8" height="8" fill="#064e3b"/>
+                        <rect x="58" y="12" width="6" height="15" fill="#064e3b"/>
+                        <rect x="35" y="25" width="15" height="5" fill="#064e3b"/>
+                        <rect x="55" y="25" width="8" height="8" fill="#064e3b"/>
+                        <rect x="8" y="38" width="12" height="6" fill="#064e3b"/>
+                        <rect x="25" y="35" width="8" height="12" fill="#064e3b"/>
+                        <rect x="38" y="38" width="12" height="12" fill="#064e3b"/>
+                        <rect x="55" y="38" width="15" height="6" fill="#064e3b"/>
+                        <rect x="75" y="35" width="18" height="15" fill="#064e3b"/>
+                        <rect x="5" y="55" width="15" height="8" fill="#064e3b"/>
+                        <rect x="25" y="52" width="6" height="12" fill="#064e3b"/>
+                        <rect x="35" y="55" width="8" height="15" fill="#064e3b"/>
+                        <rect x="48" y="52" width="15" height="10" fill="#064e3b"/>
+                        <rect x="68" y="55" width="10" height="12" fill="#064e3b"/>
+                        <rect x="82" y="58" width="12" height="8" fill="#064e3b"/>
+                        <rect x="38" y="75" width="12" height="15" fill="#064e3b"/>
+                        <rect x="55" y="70" width="12" height="8" fill="#064e3b"/>
+                        <rect x="72" y="75" width="8" height="18" fill="#064e3b"/>
+                        <rect x="85" y="78" width="10" height="15" fill="#064e3b"/>
+                        <rect x="58" y="85" width="10" height="10" fill="#064e3b"/>
+                    </svg>
+                </div>
+                <div class="space-y-1 text-center sm:text-left">
+                    <span class="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-100 text-emerald-900 uppercase tracking-wide">
+                        Guide Interactif
+                    </span>
+                    <h3 class="font-bold text-emerald-950 text-sm">Livret d'Accueil</h3>
+                    <p class="text-xs text-emerald-800">Scannez pour garder toutes les infos sur votre téléphone.</p>
+                </div>
+            </div>
+
+            <!-- QR Code 2: Google Review -->
+            <div class="flex flex-col sm:flex-row items-center gap-4 bg-white p-4 rounded-2xl shadow-sm border border-emerald-200">
+                <div class="w-28 h-28 flex-shrink-0 bg-white p-1 rounded-lg flex items-center justify-center border border-emerald-100">
+                    <svg viewBox="0 0 100 100" class="w-full h-full rounded">
+                        <rect width="100" height="100" fill="#ffffff"/>
+                        <rect x="5" y="5" width="25" height="25" fill="#064e3b"/>
+                        <rect x="9" y="9" width="17" height="17" fill="#ffffff"/>
+                        <rect x="13" y="13" width="9" height="9" fill="#064e3b"/>
+                        <rect x="70" y="5" width="25" height="25" fill="#064e3b"/>
+                        <rect x="74" y="9" width="17" height="17" fill="#ffffff"/>
+                        <rect x="78" y="13" width="9" height="9" fill="#064e3b"/>
+                        <rect x="5" y="70" width="25" height="25" fill="#064e3b"/>
+                        <rect x="9" y="74" width="17" height="17" fill="#ffffff"/>
+                        <rect x="13" y="78" width="9" height="9" fill="#064e3b"/>
+                        <rect x="38" y="5" width="12" height="8" fill="#064e3b"/>
+                        <rect x="55" y="8" width="8" height="12" fill="#064e3b"/>
+                        <rect x="35" y="20" width="8" height="15" fill="#064e3b"/>
+                        <rect x="48" y="22" width="15" height="8" fill="#064e3b"/>
+                        <rect x="5" y="38" width="15" height="8" fill="#064e3b"/>
+                        <rect x="25" y="35" width="10" height="12" fill="#064e3b"/>
+                        <rect x="40" y="38" width="15" height="15" fill="#064e3b"/>
+                        <rect x="60" y="35" width="8" height="18" fill="#064e3b"/>
+                        <rect x="72" y="38" width="20" height="10" fill="#064e3b"/>
+                        <rect x="38" y="58" width="10" height="12" fill="#064e3b"/>
+                        <rect x="52" y="55" width="12" height="8" fill="#064e3b"/>
+                        <rect x="68" y="55" width="12" height="15" fill="#064e3b"/>
+                        <rect x="85" y="58" width="10" height="12" fill="#064e3b"/>
+                        <rect x="35" y="75" width="15" height="8" fill="#064e3b"/>
+                        <rect x="55" y="75" width="8" height="15" fill="#064e3b"/>
+                        <rect x="68" y="78" width="15" height="8" fill="#064e3b"/>
+                        <rect x="85" y="82" width="10" height="10" fill="#064e3b"/>
+                    </svg>
+                </div>
+                <div class="space-y-1 text-center sm:text-left">
+                    <span class="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-amber-100 text-amber-900 uppercase tracking-wide">
+                        Votre Avis Compte ⭐
+                    </span>
+                    <h3 class="font-bold text-emerald-950 text-sm">Laisser un avis Google</h3>
+                    <p class="text-xs text-emerald-800">Partagez votre expérience et aidez-nous à grandir !</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Content Sections -->
+        <div class="p-6 sm:p-10 space-y-10">
+
+            <!-- Section 1: Infos Essentielles -->
+            <section class="space-y-4">
+                <h3 class="text-lg font-bold text-emerald-900 flex items-center gap-2 border-b border-emerald-100 pb-2">
+                    <i data-lucide="key" class="w-5 h-5 text-emerald-600"></i> Les Essentiels du Séjour
+                </h3>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <div class="bg-emerald-50/50 p-4 rounded-xl border border-emerald-100">
+                        <span class="text-xs font-bold uppercase text-emerald-700 tracking-wider">Wi-Fi Haut Débit</span>
+                        <p class="font-semibold text-emerald-950 mt-1">LodgeManae_Guest</p>
+                        <p class="text-xs text-emerald-800 mt-0.5">Clé : <code class="bg-white px-1.5 py-0.5 rounded border border-emerald-200">reunion974</code></p>
+                    </div>
+                    <div class="bg-emerald-50/50 p-4 rounded-xl border border-emerald-100">
+                        <span class="text-xs font-bold uppercase text-emerald-700 tracking-wider">Horaires</span>
+                        <p class="font-semibold text-emerald-950 mt-1">Check-in : 15h00</p>
+                        <p class="text-xs text-emerald-800 mt-0.5">Check-out : 11h00</p>
+                    </div>
+                    <div class="bg-emerald-50/50 p-4 rounded-xl border border-emerald-100">
+                        <span class="text-xs font-bold uppercase text-emerald-700 tracking-wider">Confort Thermique</span>
+                        <p class="font-semibold text-emerald-950 mt-1">Fraîcheur Naturelle</p>
+                        <p class="text-xs text-emerald-800 mt-0.5">Isolation haute performance (ouate de cellulose).</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 2: Le Trésor de Manaë (Chasse au trésor / Mini-jeu) -->
+            <section class="bg-gradient-to-br from-amber-50 to-orange-50 p-6 sm:p-8 rounded-2xl border border-amber-200 space-y-4">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-bold text-amber-950 flex items-center gap-2">
+                        <i data-lucide="compass" class="w-5 h-5 text-amber-600"></i> Le Trésor de Manaë 🕵️‍♂️
+                    </h3>
+                    <span class="bg-amber-200 text-amber-900 text-xs px-2.5 py-1 rounded-full font-semibold">Expérience Voyageurs</span>
+                </div>
+                <p class="text-sm text-amber-900">
+                    Prêts à relever le défi ? Résolvez cette énigme cachée dans le lodge pour débloquer une surprise locale :
+                </p>
+                <div class="bg-white/85 p-4 rounded-xl border border-amber-200 text-sm text-amber-950 italic">
+                    "Entre murs de bois brut et plantes suspendues, je veille sur le salon. Cherchez la vannerie traditionnelle tissée à la main : le mot de passe secret de la maison s'y cache..."
+                </div>
+            </section>
+
+            <!-- Section 3: Coups de Cœur & Adresses -->
+            <section class="space-y-4">
+                <h3 class="text-lg font-bold text-emerald-900 flex items-center gap-2 border-b border-emerald-100 pb-2">
+                    <i data-lucide="heart" class="w-5 h-5 text-emerald-600"></i> Nos Adresses & Coups de Cœur 🌴
+                </h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="p-4 rounded-xl border border-emerald-100 hover:border-emerald-300 transition bg-white shadow-sm space-y-1">
+                        <span class="text-xs font-semibold text-emerald-600">Table Gourmande</span>
+                        <h4 class="font-bold text-emerald-950">Le P'ti Moderne</h4>
+                        <p class="text-xs text-emerald-800 leading-relaxed">
+                            Une table chaleureuse et raffinée à découvrir pour savourer de superbes plats dans une ambiance conviviale.
+                        </p>
+                    </div>
+                    <div class="p-4 rounded-xl border border-emerald-100 hover:border-emerald-300 transition bg-white shadow-sm space-y-1">
+                        <span class="text-xs font-semibold text-emerald-600">Immersion Locale</span>
+                        <h4 class="font-bold text-emerald-950">Le Marché Forain de Saint-Pierre</h4>
+                        <p class="text-xs text-emerald-800 leading-relaxed">
+                            Immanquable au bord du lagon : épices, fruits péi (letchis, mangues selon saison), samoussas et artisanat local.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 4: L'Esprit des Hauts & Balades -->
+            <section class="space-y-4">
+                <h3 class="text-lg font-bold text-emerald-900 flex items-center gap-2 border-b border-emerald-100 pb-2">
+                    <i data-lucide="mountain" class="w-5 h-5 text-emerald-600"></i> Évasions & Randonnées Proches
+                </h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="p-4 rounded-xl border border-emerald-100 hover:border-emerald-300 transition bg-white shadow-sm space-y-1">
+                        <span class="text-xs font-semibold text-emerald-600">Sentier Vertige</span>
+                        <h4 class="font-bold text-emerald-950">Le Cap Noir & Roche Verre Bouteille</h4>
+                        <p class="text-xs text-emerald-800 leading-relaxed">
+                            Des points de vue à couper le souffle sur le cirque de Mafate. Idéal le matin tôt pour profiter d'un ciel dégagé.
+                        </p>
+                    </div>
+                    <div class="p-4 rounded-xl border border-emerald-100 hover:border-emerald-300 transition bg-white shadow-sm space-y-1">
+                        <span class="text-xs font-semibold text-emerald-600">Saveurs & Traditions</span>
+                        <h4 class="font-bold text-emerald-950">Le Coin Gourmand & Samoussas</h4>
+                        <p class="text-xs text-emerald-800 leading-relaxed">
+                            Goûtez aux fameux samoussas au thon croustillants de Ravine des Cabris et profitez des marchés locaux de Saint-Pierre.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 5: Contact & Assistance (WhatsApp) -->
+            <section class="bg-emerald-900 text-white p-6 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div class="space-y-1 text-center sm:text-left">
+                    <h4 class="font-bold text-lg">Une question pendant votre séjour ?</h4>
+                    <p class="text-xs text-emerald-200">Contactez-nous directement par WhatsApp pour une réponse rapide.</p>
+                </div>
+                <a href="https://wa.me/262693492046" target="_blank" class="bg-emerald-500 hover:bg-emerald-400 text-white px-5 py-2.5 rounded-xl font-bold text-sm transition shadow-sm flex items-center gap-2">
+                    <i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp (+262 6 93 49 20 46)
+                </a>
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="bg-emerald-950 text-emerald-300/70 py-4 px-6 text-center text-xs border-t border-emerald-900">
+            Lodge Manaë • Fait avec passion à La Réunion 🌴
+        </div>
+
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
